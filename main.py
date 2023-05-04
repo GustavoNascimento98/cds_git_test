@@ -1,14 +1,15 @@
 def gather_data():
-    n1 = int(input("First value: "))
-    n2 = int(input("Second value: "))
+    n1 = input("First value: ")
+    n2 = input("Second value: ")
+    op = input("Operation: ")
 
-    return n1, n2
+    return n1, n2, op
 
 
 def main():
-    n1, n2 = gather_data()
+    n1, n2, op = gather_data()
     
-    print(n1 ** n2)
+    print(eval(n1 + op + n2))
     
     return None
 
