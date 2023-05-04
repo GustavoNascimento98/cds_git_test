@@ -8,7 +8,7 @@ def gather_data():
 def main():
     n1, n2 = gather_data()
     
-    print(n1 * n2)
+    print(n1 ** n2)
     
     return None
 
