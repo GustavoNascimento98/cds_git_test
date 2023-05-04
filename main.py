@@ -1,5 +1,15 @@
+def gather_data():
+    n1 = int(input("First value: "))
+    n2 = int(input("Second value: "))
+
+    return n1, n2
+
+
 def main():
-    print(2 * 2)
+    n1, n2 = gather_data()
+    
+    print(n1 * n2)
+    
     return None
 
 
