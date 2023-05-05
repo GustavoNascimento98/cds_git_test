@@ -1,7 +1,13 @@
+def get_operation():
+    op = input("Operation: ")
+
+    return op
+
 def gather_data():
     n1 = input("First value: ")
     n2 = input("Second value: ")
-    op = input("Operation: ")
+    
+    op = get_operation()
 
     return n1, n2, op
 
